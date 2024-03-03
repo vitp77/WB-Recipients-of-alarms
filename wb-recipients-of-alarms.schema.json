@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "WB Recipients of alarms settings",
+    "description": "Configuration of WB Recipients of alarms settings",
+    "options": {
+        "disable_edit_json": true,
+        "disable_properties": true,
+        "disable_collapse": true
+    },
+	
+    "configFile": {
+        "path": "/etc/wb-rules/wb-recipients-of-alarms.conf",
+        "service": "wb-rules"
+    },
+    "properties": {},
+	"definitions": {}
+}
